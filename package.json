@@ -1,0 +1,43 @@
+{
+  "name": "freelance-rate-math",
+  "version": "1.0.0",
+  "description": "Zero-dependency minor-unit integer calculation engine for freelance rate modeling, reverse-netting, and tax overhead buffers.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfazMahmudRizve/freelance-rate-math.git"
+  },
+  "keywords": [
+    "freelance",
+    "hourly-rate",
+    "rate-calculator",
+    "reverse-netting",
+    "contractor-rate",
+    "consulting-fees",
+    "tax-buffer",
+    "fasttools"
+  ],
+  "author": "Alfaz Mahmud Rizve <a.m.rizve3905@gmail.com> (https://whoisalfaz.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfazMahmudRizve/freelance-rate-math/issues"
+  },
+  "homepage": "https://fasttools.me/freelance-rate-calculator#readme"
+}
